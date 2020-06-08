@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background: white;
+    background:#E30004;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -13,7 +13,7 @@ ul {
 }
 a {
     text-decoration: none;
-    color: #E4E4E4;
+    color: #FFFFFF;
 }
 .nav {
 
@@ -75,15 +75,45 @@ a {
 .main h1{
     /* display: block; */
     font-family: "Raleway", sans-serif;
-    font-size: 45px;
-    color: #D62323;
+    font-size: 55px;
+    color: #FFFFFF;
 }
 
 .main p{
 
     font-family: "Ubuntu", sans-serif;
     font-size: 20px;
+    color: #FFFFFF;
+}
+
+.about{
+    justify-content: center;
+}
+
+section  {    
+    display: block;
+    margin-top: -140px;
+    height: 300px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
     color: #D62323;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+section p {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    color: #D62323;
+    padding: 2rem;
+    text-align: left;
 }
 
 
@@ -114,6 +144,20 @@ a {
         margin-top: 55px;
         margin-left: 0px;
         /* position: relative; */
+    }
+    .main h1 {
+        margin-top: 10px;
+        font-size: 30px;
+    }
+
+    section  {    
+        display: inline-table;
+        margin-top: -140px;
+        height: 300px;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+    
     }
 }
 
