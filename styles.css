@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background:#E30004;
+    background:#D62323;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -54,13 +54,6 @@ a {
 
 
 .main {
-    /* max-width: 400px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 32px;
-    font-family: "Ubuntu", sans-serif; */
     padding: 3rem;
     display: flex;
     align-items: center;
@@ -68,41 +61,63 @@ a {
 }
 
 .main-img {
-    width: 550px;
-    /* height: 100vh; */
-    
+    width: 550px;    
 }
 .main h1{
-    /* display: block; */
     font-family: "Raleway", sans-serif;
     font-size: 55px;
     color: #FFFFFF;
 }
 
 .main p{
-
     font-family: "Ubuntu", sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     color: #FFFFFF;
 }
 
-.about{
-    justify-content: center;
+.build-img{
+    width: 18%;    
 }
 
-section  {    
+
+#projects {
+    flex: 1;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#projects h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+#projects p {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+
+section #about{    
     display: block;
     margin-top: -140px;
-    height: 300px;
+    /* height: 300px; */
     background-color: white;
     align-items: center;
     justify-content: center;
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 section h1{
     font-family: "Raleway", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: #D62323;
     padding-left: 2rem;
     padding-top: 2rem;
@@ -110,11 +125,13 @@ section h1{
 
 section p {
     font-family: "Ubuntu", sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     color: #D62323;
     padding: 2rem;
     text-align: left;
 }
+
+
 
 
 @media (max-width:900px){
@@ -152,12 +169,22 @@ section p {
 
     section  {    
         display: inline-table;
-        margin-top: -140px;
-        height: 300px;
+        margin-top: 20px;
+        /* height: 300px; */
         background-color: white;
         align-items: center;
         justify-content: center;
-    
+        box-shadow: none;    
     }
+
+    #projects {
+        display: inline-table;
+        margin-top: 20px;
+        height: 300px;
+        background-color: #D62323;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 
