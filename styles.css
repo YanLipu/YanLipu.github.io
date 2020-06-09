@@ -75,33 +75,57 @@ a {
     color: #FFFFFF;
 }
 
-.build-img{
-    width: 18%;    
-}
 
 
-#projects {
+
+.projectClass {
     flex: 1;
-    margin-top: 3rem;
+    margin-top: 8%;
     display: flex;
+    width: auto;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;    
+}
+.projectClass .pro-description .tool-img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
+.projectClass .pro-description .tool-img img{
+    width: 100px;
+    height: 100px;
 }
 
-#projects h1 {
+.projectClass .pro-description .tool-img:hover{
+    color: #323232;
+}
+
+.projectClass h1 {
     font-family: "Raleway", sans-serif;
     font-size: 25px;
     color: white;
-    padding-left: 2rem;
-    padding-top: 2rem;
+    /* padding-left: 2rem;
+    padding-top: 2rem; */
+    text-align: center;
 }
-#projects p {
+.projectClass p {
     font-family: "Ubuntu", sans-serif;
     font-size: 20px;
     color: white;
-    padding-left: 2rem;
-    padding-top: 2rem;
+    /* padding-left: 2rem; */
+    /* padding-top: 2rem; */
+    text-align: center;
 }
+
+.projectClass .pro-description {
+    background: #8E0000 ;
+    border-radius: 10px;
+}
+
 
 
 section #about{    
@@ -171,19 +195,20 @@ section p {
         display: inline-table;
         margin-top: 20px;
         /* height: 300px; */
-        background-color: white;
+        /* background-color: white; */
         align-items: center;
         justify-content: center;
         box-shadow: none;    
     }
 
-    #projects {
+    .projects {
         display: inline-table;
         margin-top: 20px;
-        height: 300px;
+        /* height: 300px; */
         background-color: #D62323;
         align-items: center;
         justify-content: center;
+        position: inherit;
     }
     
 }
