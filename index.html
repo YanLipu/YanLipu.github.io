@@ -12,8 +12,8 @@
     
     <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__item"><a class="nav__button" href="#about">About</a></li>
-            <li class="nav__item"><a class="nav__button" href="#projects">My Projects</a></li>
+            <li class="nav__item"><a class="nav__button" href="#quem-sou-eu" >About</a></li>
+            <li class="nav__item"><a class="nav__button" href="#ecoleta">My Projects</a></li>
             <li class="nav__item"><a class="nav__button" href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -25,62 +25,49 @@
         </div>
         <img class="main-img" src="/assets/projeto-yan-final.png" alt="working-at-laptop">
     </main>
-    <section id="about">
+
+    <section class="about">
         <div id="about">
-            <h1>Quem sou eu?</h1>    
+            <h1 class id="quem-sou-eu">Quem sou eu?</h1>    
             <p>Me chamo Jośe Yan, tenho 23 anos, e estou prestes a me formar em Engenharia de Computação 
             pela Universidade Federal da Grandes Dourados-Brasil. Sou apaixonado por tecnologia, e como um bom 
             brasileiro, apaixonado por futebol também. Busco oportunidades de aplicar e aprimorar meus conhecimentos
             em desenvolvimento.</p>
-        </div>        
+        </div>
+            
     </section>
 
-    <section id="projects">
-        <div class="projectClass">
-            <div class="pro-description">
-                <div class="tool-img">
+    <section class="my-projects">
+        <!-- <div class="container-projects">-->
+            <!-- <div class="container-list"> -->
+                <div id="ecoleta" >
                     <a href="https://github.com/YanLipu/EcoletaYan">
-                    <img class="build-img" src="/assets/build-24px.svg" alt="tool">
+                    <div class="project-image">
+                        <img src="/assets/fix.svg" alt="tool">
+                    </div>                    
+                    <h1>ECOLETA</h1>
+                    <p>O Ecoleta foi um projeto desenvolvido durante a Next Level Week, uma semana
+                    de curso intensivo promovida pela Rocketseat. O projeto consiste em um sistema web
+                    que cadastra, e busca pontos de reciclagem pelo Brasil. O meu diferencial no projeto
+                    foi ter feito tudo em containers usando Docker</p>
                     </a>
                 </div>
-                <h1>Ecoleta</h1>                
-                <p>
-                O Ecoleta foi um projeto desenvolvido durante a Next Level Week da Rocketseat
-                </p>                
-            </div>
-
-            <div class="pro-description">
-                <div class="tool-img">
-                    <img class="build-img" src="/assets/build-24px.svg" alt="tool">
+                <div id="ecoleta">
+                    <a href="https://github.com/YanLipu/electron-auto-update-example">
+                    <div class="project-image">
+                        <img src="/assets/fix.svg" alt="tool">
+                    </div>                    
+                    <h1>ELECTRON AUTO UPDATE APP</h1>
+                    <p>Esta aplicação consiste em atualizar automaticamente aplicações buildadas com
+                    o Electron. A aplicação busca de maneira automatica novas releases no repositório git
+                    da aplicação. Após esse processo, o usuário é informado de que uma nova versão está 
+                    disponível, bastando apenas reiniciar a aplicação</p>
+                    </a>
                 </div>
-                <h1>Projeto Número 2</h1>
-                <p>Descrição do projeto número 2</p>
-            </div>
-
-            <div class="pro-description">
-                <div class="tool-img">
-                    <img class="build-img" src="/assets/build-24px.svg" alt="tool">
-                </div>
-                <h1>Projeto Número 3</h1>
-                <p>Descrição do projeto número 3</p>
-            </div>
-        </div>
+            <!-- </div> -->
+        <!-- </div>-->
     </section>
-
     
-    
-    
-    <!-- 
-    
-    
-
-    <section>
-        <div id="contact">
-            <h1>Onde me encontrar?</h1>    
-            <p>MINHAS REDES DE CONTATO</p>
-        </div>
-    </section>
-    -->
 
 </body>
 </html>

@@ -75,60 +75,7 @@ a {
     color: #FFFFFF;
 }
 
-
-
-
-.projectClass {
-    flex: 1;
-    margin-top: 8%;
-    display: flex;
-    width: auto;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;    
-}
-.projectClass .pro-description .tool-img{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-} 
-
-.projectClass .pro-description .tool-img img{
-    width: 100px;
-    height: 100px;
-}
-
-.projectClass .pro-description .tool-img:hover{
-    color: #323232;
-}
-
-.projectClass h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: 25px;
-    color: white;
-    /* padding-left: 2rem;
-    padding-top: 2rem; */
-    text-align: center;
-}
-.projectClass p {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 20px;
-    color: white;
-    /* padding-left: 2rem; */
-    /* padding-top: 2rem; */
-    text-align: center;
-}
-
-.projectClass .pro-description {
-    background: #8E0000 ;
-    border-radius: 10px;
-}
-
-
-
-section #about{    
+.about {    
     display: block;
     margin-top: -140px;
     /* height: 300px; */
@@ -136,10 +83,10 @@ section #about{
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} 
 
 
-section h1{
+.about h1{
     font-family: "Raleway", sans-serif;
     font-size: 30px;
     color: #D62323;
@@ -147,12 +94,57 @@ section h1{
     padding-top: 2rem;
 }
 
-section p {
+.about p {
     font-family: "Ubuntu", sans-serif;
     font-size: 23px;
     color: #D62323;
     padding: 2rem;
     text-align: left;
+}
+
+.my-projects img{
+    max-width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.my-projects {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.my-projects > div {
+    background-color: #BA0000;
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 4px rgba(0,0,0,0.43);
+    flex: 1 1 280px;
+    margin: 0 40px;
+    transition: 400ms;
+    cursor: pointer;
+}
+
+.my-projects > div:hover {
+    background-color: #8E0000;
+}
+
+.my-projects h1 {
+    font-family: "Raleway", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+.my-projects p {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 23px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
 }
 
 
@@ -190,26 +182,13 @@ section p {
         margin-top: 10px;
         font-size: 30px;
     }
-
-    section  {    
-        display: inline-table;
-        margin-top: 20px;
-        /* height: 300px; */
-        /* background-color: white; */
-        align-items: center;
-        justify-content: center;
-        box-shadow: none;    
-    }
-
-    .projects {
-        display: inline-table;
-        margin-top: 20px;
-        /* height: 300px; */
-        background-color: #D62323;
-        align-items: center;
-        justify-content: center;
-        position: inherit;
-    }
+    .about {
+        margin-top: 5rem;
+    } 
     
+    .container-projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
