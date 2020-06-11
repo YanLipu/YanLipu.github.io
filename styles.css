@@ -260,11 +260,14 @@ a {
     }
     .about {
         margin-top: 5rem;
-    } 
-    
+    }
     .container-projects {
         display: flex;
         flex-wrap: wrap;
+        
+    }
+    .my-projects > div {
+        margin-bottom: 15px;
     }
 }
 
